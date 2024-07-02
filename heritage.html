@@ -3,14 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heritage Sites - XYZ City</title>
+    <title>Heritage Sites - BANGALORE City</title>
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Centered Image */
+        .centered-image {
+          text-align: center;
+          margin: 20px; /* Add some margin for better visibility */
+        }
+      
+        /* Floated Images */
+        .float-container {
+          overflow: hidden; /* This is required for floated elements to work properly */
+        }
+        
+        .float-left {
+          float: left;
+          margin: 10px;
+          width: 45%; /* Set image width to ensure they fit side-by-side */
+        }
+      
+        .float-right {
+          float: right;
+          margin: 10px;
+          width: 45%;
+        }
+        .image-container {
+            text-align: center;
+          }
+      </style>
 </head>
 <body>
 
 <header>
-    <img src="images/logo.png" alt="City Logo">
-    <h1>XYZ City</h1>
+    <img src="image/logo.jpeg" alt="City Logo">
+    <h1>BANGALORE City</h1>
 </header>
 
 <nav>
@@ -20,18 +47,18 @@
     <a href="gallery.html">Gallery</a>
 </nav>
 
-<article>
+<div class="image-container">
     <h2>Heritage Sites</h2>
     <ul>
-        <li><a href="heritage-sites/site1.html"><img src="images/heritage1.jpg" alt="Heritage Site 1"></a></li>
-        <li><a href="heritage-sites/site2.html"><img src="images/heritage2.jpg" alt="Heritage Site 2"></a></li>
-        .....
-        <li><a href="heritage-sites/site10.html"><img src="images/heritage10.jpg" alt="Heritage Site 10"></a></li>
+        <li><a href="site1.html"><img src="image/image1.jpeg" alt="Heritage Site 1"></a></li>
+        <li><a href="site2.html"><img src="image/image2.jpeg" alt="Heritage Site 2"></a></li>
+        <li><a href="site3.html"><img src="image/image3.jpeg" alt="Heritage Site 3"></a></li>
+        <li><a href="site4.html"><img src="image/image4.jpeg" alt="Heritage Site 4"></a></li>
     </ul>
 </div>
 
 <footer>
-    &copy; 2024 XYZ City Tourism. All rights reserved.
+    &copy; 2024 Bangalore City Tourism. All rights reserved.
 </footer>
 
 </body>
